@@ -9,7 +9,7 @@ group :development do
   gem 'rails_layout'
 end
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '4.0.2'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
@@ -25,5 +25,11 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-
-
+gem 'foundation-rails'
+gem 'bootstrap-sass'
+gem 'sprockets', '2.11.0'
+gem 'simple_form'
+gem 'devise'
+gem 'haml', '~> 4.0.5'
+gem 'haml-rails'
+gem 'rspec', '~> 3.0.0'
